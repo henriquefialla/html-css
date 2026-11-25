@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: blueviolet;
+        margin: 0px;
+    }
+    header {
+        background-color: rgb(255, 8, 0);
+        padding: 10px;
+        margin: 10px;
+    }
+    nav {
+        background-color: rgb(0, 238, 255);
+        padding: 3px;
+        box-shadow: 2px 2px 2px black;
+    }
+    nav > a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+
+    }
+    main {
+        background-color: cornflowerblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    footer{
+
+        background-color: chartreuse;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+         <h1>meu site</h1>
+        <nav>
+        <a href="#">link</a>
+         <a href="#">link</a>
+          <a href="#">link</a>
+           <a href="#">link</a>
+            <a href="#">link</a>
+    </nav>
+        </header>
+    <main>
+        <section id="assuntos">
+            <p>esporte politica tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facere perspiciatis odit! At quisquam veritatis deleniti tempore sint, quae illum molestiae fugiat blanditiis ullam quasi laborum voluptas, est ex architecto.</p>
+                <aside>
+                    <p>artigo por jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>desenvolvido por henrique</footer>
+</body>
+</html>

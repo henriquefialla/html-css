@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html 5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>pra varios dispositivos</p>
+<!--imagem grande e os sources em cima, e sempre em ordem, img sempre a maior e os sources diminuindo em cima-->
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>audio</h2>
+    <!--n tem audio baixado ent vai ser so o codigo msm-->
+    <audio src="midia/exemplo.mp3"> controls autoplay</audio>
+    <!--mp3 wav ogg-->
+    <audio preload="metadata" autoplay controls> <!--escrever loop dps do controls deixa em loop ne ava kkkk-->
+        <source src="midia/exemplo.mp3" type="audio/mpeg">
+        <source src="midia/exemplo.mp3" type="audio/ogg">
+        <source src="midia/exemplo.mp3" type="audio/wav"> <!--wav é mais pesado-->
+        <p>infelizmente seu navegador n reproduz audio</p>
+        <a href="midia/exemplo.mp3">clique pra baixar</a>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*html=id em css é #
+class em html é . em css*/
+body {
+    background-color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: darkorange;
+}
+
+#principal {
+    text-align: center;
+}
+h2 {
+    color: aquamarine;
+}
+
+.basico {
+    color: crimson;
+}
+
+.intermediario {
+    color: blueviolet;
+}
+
+.avancado {
+    color: cyan;
+}
